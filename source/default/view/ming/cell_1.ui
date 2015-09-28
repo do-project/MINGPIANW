@@ -1,0 +1,36 @@
+{
+    "RootView": {
+        "id": "AlayoutRoot",
+        "width": "480",
+        "height": "100",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_1",
+                "width": "480",
+                "height": "100",
+                "bgColor": "FFFFFFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_imageview_1",
+                        "x": "40",
+                        "y": "10",
+                        "width": "400",
+                        "type": "do_ImageView"
+                    },
+                    {
+                        "id": "do_label_1",
+                        "x": "140",
+                        "y": "27",
+                        "width": "274",
+                        "height": "45",
+                        "type": "do_Label",
+                        "fontColor": "808080FF",
+                        "fontSize": "20"
+                    }
+                ]
+            }
+        ]
+    }
+}
