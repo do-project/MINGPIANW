@@ -34,7 +34,7 @@
       "DefaultValue": "never",
       "EditType": "0",
       "Group": "",
-      "Description": "只有当imageview的source是http或者https的网络图片时，这个属性才有意义。支持三种缓存方式：\\r\\nalways：表示只读本地缓存，缓存没有的时候从远程读取一次然后就缓存到本地。\\r\\nnever：表示永远不读本地缓存，永远都是读远程图片。\\r\\ntemporay：表示每次打开这个imageview都会先读缓存的本地图片，然后再读服务器的网络图片，然后再缓存到本地,然后再更新到imageview",
+      "Description": "只有当imageview的source是http或者https的网络图片时，这个属性才有意义。支持三种缓存方式：；always：表示只读本地缓存，缓存没有的时候从远程读取一次然后就缓存到本地。；never：表示永远不读本地缓存，永远都是读远程图片。；temporay：表示每次打开这个imageview都会先读缓存的本地图片，然后再读服务器的网络图片，然后再缓存到本地,然后再更新到imageview",
       "Design": {
         "Type": "List",
         "Data": [
@@ -57,12 +57,12 @@
       "ID": "defaultImage",
       "Name": "默认图片",
       "Type": "String",
-      "DefaultValue": "",
+      "DefaultValue": "0",
       "EditType": "1",
       "Group": "",
       "Description": "支持data://和source://",
       "Design": {
-        "Type": "Text",
+        "Type": "ImageSource",
         "Data": []
       }
     },
@@ -99,7 +99,7 @@
       "DefaultValue": "fillxy",
       "EditType": "0",
       "Group": "",
-      "Description": "图片显示类型，有以下几种方式,缺省为fillxy  fillxy：拉伸图片（不按比例）以填充View的宽高  center：按原图大小显示图片，但图片宽高大于View的宽高时，截图图片中间部分显示    fillxory：按比例放大原图直至等于某边View的宽高显示",
+      "Description": "图片显示类型，有以下几种方式,缺省为fillxy；fillxy：拉伸图片（不按比例）以填充View的宽高；center：按原图大小显示图片，但图片宽高大于View的宽高时，截图图片中间部分显示；fillxory：按比例放大原图直至等于某边View的宽高显示",
       "Design": {
         "Type": "List",
         "Data": [
@@ -125,7 +125,7 @@
       "DefaultValue": "",
       "EditType": "1",
       "Group": "",
-      "Description": "可设置html链接或本地文件，支持：http:// https:// data:// source:// 打头的URL格式，不能包含@符号。其中文件格式说明可参考Storage类",
+      "Description": "可设置html链接或本地文件，支持：http:// https:// data:// source:// 打头的URI格式，不能包含@符号。其中文件格式说明可参考Storage类",
       "Design": {
         "Type": "ImageSource",
         "Data": []
