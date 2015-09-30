@@ -1,0 +1,125 @@
+{
+    "RootView": {
+        "id": "bg_layout",
+        "width": "480",
+        "height": "854",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "top",
+                "width": "480",
+                "height": "70",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_imageview_1",
+                        "x": "-25",
+                        "width": "530",
+                        "height": "70",
+                        "type": "do_ImageView",
+                        "source": "source://image/ming/1.png"
+                    },
+                    {
+                        "id": "zhong",
+                        "x": "110",
+                        "y": "10",
+                        "width": "286",
+                        "height": "46",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_label_1",
+                                "width": "282",
+                                "height": "46",
+                                "type": "do_Label",
+                                "fontColor": "FFFFFFFF",
+                                "fontSize": "30",
+                                "text": "从手机通讯录添加",
+                                "textAlign": "center"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "action_back",
+                        "width": "80",
+                        "height": "70",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_7",
+                                "x": "10",
+                                "y": "10",
+                                "width": "70",
+                                "height": "50",
+                                "type": "do_ImageView",
+                                "source": "source://image/lian/6.png"
+                            },
+                            {
+                                "id": "do_label_5",
+                                "x": "18",
+                                "y": "13",
+                                "width": "62",
+                                "height": "41",
+                                "type": "do_Label",
+                                "fontColor": "FFFFFFFF",
+                                "fontSize": "20",
+                                "text": "返回",
+                                "textAlign": "center"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_3",
+                "y": "70",
+                "width": "480",
+                "height": "60",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_imageview_4",
+                        "width": "480",
+                        "height": "60",
+                        "type": "do_ImageView",
+                        "source": "source://image/ming/6.jpg"
+                    },
+                    {
+                        "id": "do_textfield_2",
+                        "x": "82",
+                        "y": "8",
+                        "width": "368",
+                        "height": "45",
+                        "type": "do_TextField",
+                        "border": "000000,0,0",
+                        "fontColor": "808080FF",
+                        "fontSize": "20",
+                        "hint": "搜索姓名、公司、职位、手机号"
+                    }
+                ]
+            },
+            {
+                "id": "do_imageview_3",
+                "x": "102",
+                "y": "270",
+                "width": "277",
+                "height": "150",
+                "type": "do_ImageView",
+                "source": "source://image/xiao/4.png"
+            },
+            {
+                "id": "do_label_6",
+                "x": "120",
+                "y": "426",
+                "width": "244",
+                "height": "57",
+                "type": "do_Label",
+                "fontColor": "808080FF",
+                "fontSize": "20",
+                "text": "没有要添加的人",
+                "textAlign": "center"
+            }
+        ]
+    }
+}

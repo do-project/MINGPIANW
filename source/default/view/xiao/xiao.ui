@@ -1,0 +1,83 @@
+{
+    "RootView": {
+        "id": "bg_layout",
+        "width": "480",
+        "height": "854",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "top",
+                "width": "480",
+                "height": "70",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_imageview_1",
+                        "x": "-25",
+                        "width": "530",
+                        "height": "70",
+                        "type": "do_ImageView",
+                        "source": "source://image/ming/1.png"
+                    },
+                    {
+                        "id": "zhong",
+                        "x": "170",
+                        "y": "12",
+                        "width": "134",
+                        "height": "46",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_label_1",
+                                "width": "134",
+                                "height": "46",
+                                "type": "do_Label",
+                                "fontColor": "FFFFFFFF",
+                                "fontSize": "30",
+                                "text": "消息",
+                                "textAlign": "center"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "youshang",
+                        "x": "398",
+                        "y": "10",
+                        "width": "64",
+                        "height": "50",
+                        "type": "do_ImageView",
+                        "enabled": "true",
+                        "source": "source://image/xiao/1.png"
+                    },
+                    {
+                        "id": "youshang_",
+                        "x": "400",
+                        "y": "10",
+                        "width": "65",
+                        "height": "50",
+                        "type": "do_ALayout",
+                        "isStretch": "false"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_1",
+                "y": "70",
+                "width": "480",
+                "height": "710",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_listview_1",
+                        "width": "480",
+                        "height": "710",
+                        "bgColor": "FFFFFFFF",
+                        "type": "do_ListView",
+                        "isHeaderVisible": "true",
+                        "templates": "source://view/xiao/cell_1.ui"
+                    }
+                ]
+            }
+        ]
+    }
+}
